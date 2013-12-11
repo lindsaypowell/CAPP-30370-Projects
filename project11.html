@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lindsay Powell </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.photo1:hover {
+  -webkit-transform: rotate(180deg)
+}
+
+.photo2:hover {
+  -webkit-transform: scale(1.5);
+}
+
+.photo3:hover {
+  -webkit-transform:skewX(20deg);
+}
+
+.box1 {
+  width:300px;
+  height:300px;
+  background-color:orange;
+  transition:all 0.5s ease-in-out;
+  box-shadow:0 0 8px 8px black;
+}
+.box1:hover {
+  width:300px;
+  height:300px;
+  background-color:black;
+  box-shadow:0 0 8px 8px orange;
+}
+
+.box2 {
+  width:300px;
+  height:300px;
+  background-color:red;
+  transition:all 0.5s ease-in-out;  
+}
+.box2:hover {
+  width:300px;
+  height:300px;
+  -webkit-transform-origin: right top;
+  -webkit-transform: scale(1.05) rotate(25deg);
+}
+</style>
+</head>
+
+<body>
+
+<h1>Photos</h1>
+
+<h2>Photo 1</h2>
+<img class="photo1" src="http://placekitten.com/g/200/200" alt="A kitten"> <br>
+<h2>Photo 2</h2>
+<img class="photo2" src="http://placekitten.com/g/200/200" alt="A kitten"> <br>
+<h2>Photo 3</h2>
+<img class="photo3" src="http://placekitten.com/g/200/200" alt="A kitten">
+
+<h1>Boxes</h1>
+<h2>Box 1</h2>
+<div class="box1"></div> <br>
+<h2>Box 2</h2>
+<div class="box2"></div>
+
+</body>
+</html>

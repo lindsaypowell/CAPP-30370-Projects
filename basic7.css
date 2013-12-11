@@ -1,0 +1,15 @@
+@media only screen and (max-width: 399px) {
+nav {float: left; width:30%; border:1px solid black; }
+img {max-width:100% ; }
+}
+
+@media only screen and (max-width: 399px){
+nav {float: left; width:30%; border:1px solid black; }
+main {float: left; width:70%; border:1px solid green;}
+}
+
+@media only screen and (min-width: 400px) {
+#image1 {float: right; max-width: 40%; }
+#image2 {float: right; max-width: 40%; }
+}
+
